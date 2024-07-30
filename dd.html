@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirect Page</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    #message {
+      font-size: 24px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="message">Hello</div>
+
+  <script>
+    setTimeout(function() {
+      document.getElementById('message').innerText = "I wish you happy";
+      setTimeout(function() {
+        window.location.href = "https://gift.truemoney.com/campaign/?v=0191025ba7757efb9084ea4840a73b46b3h";
+      }, 3000);
+    }, 3000);
+  </script>
+</body>
+</html>
